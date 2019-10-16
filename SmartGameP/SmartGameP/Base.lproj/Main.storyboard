@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="fda-uh-7hd">
+            <objects>
+                <viewController id="dBS-12-ysh" customClass="ViewController" customModule="SM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0n6-xN-qXc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rEE-cY-7D0">
+                                <rect key="frame" x="0.0" y="15" width="414" height="896"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="uxf-FN-exd">
+                                        <rect key="frame" x="40" y="103" width="347" height="691"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="691" id="62I-8N-bJz"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="691" id="Z1w-I0-pfZ"/>
+                                            <constraint firstAttribute="width" constant="347" id="kyq-Uu-ACD"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpO-X6-KeZ">
+                                        <rect key="frame" x="27" y="655" width="360" height="56"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="360" id="1u0-K5-2at"/>
+                                            <constraint firstAttribute="height" constant="56" id="6iE-1P-Voc"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="56" id="Oxu-xa-ci5"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="360" id="dWY-sM-IPX"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="360" id="mdz-7G-T5t"/>
+                                        </constraints>
+                                        <state key="normal" title="ButtonPlay" image="ButtonPlay"/>
+                                        <connections>
+                                            <action selector="button_1:" destination="dBS-12-ysh" eventType="touchUpInside" id="bfX-BY-X4w"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NameLabel" translatesAutoresizingMaskIntoConstraints="NO" id="5tf-Js-Cw8">
+                                        <rect key="frame" x="56.5" y="157" width="314" height="59"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="314" id="FrV-AV-V29"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="59" id="N69-ib-7CW"/>
+                                            <constraint firstAttribute="height" constant="59" id="thu-pF-Ypg"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="314" id="wMz-LT-idM"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8E-U3-haC" userLabel="ButtonRule">
+                                        <rect key="frame" x="40" y="723" width="258" height="56"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="EtR-7Y-ybK"/>
+                                            <constraint firstAttribute="width" constant="258" id="iAK-vT-N44"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="258" id="nK4-58-ZcC"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="56" id="s7p-C9-NVA"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="ButtonRule"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="rpO-X6-KeZ" firstAttribute="leading" secondItem="rEE-cY-7D0" secondAttribute="leading" constant="27" id="21j-hr-Dqa"/>
+                                    <constraint firstItem="uxf-FN-exd" firstAttribute="leading" secondItem="N8E-U3-haC" secondAttribute="leading" id="9GK-8p-QgH"/>
+                                    <constraint firstAttribute="trailing" secondItem="rpO-X6-KeZ" secondAttribute="trailing" constant="27" id="BZE-f7-tyH"/>
+                                    <constraint firstItem="uxf-FN-exd" firstAttribute="trailing" secondItem="rpO-X6-KeZ" secondAttribute="trailing" id="Egv-2x-GAk"/>
+                                    <constraint firstAttribute="bottom" secondItem="rpO-X6-KeZ" secondAttribute="bottom" constant="185" id="I6x-Y4-sTT"/>
+                                    <constraint firstItem="rpO-X6-KeZ" firstAttribute="leading" secondItem="rEE-cY-7D0" secondAttribute="leading" constant="27" id="J3c-se-Lb3"/>
+                                    <constraint firstItem="5tf-Js-Cw8" firstAttribute="centerX" secondItem="rEE-cY-7D0" secondAttribute="centerX" id="QNQ-v2-1ib"/>
+                                    <constraint firstItem="uxf-FN-exd" firstAttribute="leading" secondItem="rEE-cY-7D0" secondAttribute="leading" constant="40" id="Rvb-kI-C0r"/>
+                                    <constraint firstAttribute="trailing" secondItem="rpO-X6-KeZ" secondAttribute="trailing" constant="27" id="Sq4-hr-5np"/>
+                                    <constraint firstItem="uxf-FN-exd" firstAttribute="centerX" secondItem="5tf-Js-Cw8" secondAttribute="centerX" id="VVh-a1-tbu"/>
+                                    <constraint firstItem="uxf-FN-exd" firstAttribute="top" secondItem="rEE-cY-7D0" secondAttribute="top" constant="103" id="Vfz-nw-9My"/>
+                                    <constraint firstItem="uxf-FN-exd" firstAttribute="centerY" secondItem="rEE-cY-7D0" secondAttribute="centerY" id="WCY-pk-vkP"/>
+                                    <constraint firstItem="rpO-X6-KeZ" firstAttribute="top" secondItem="rEE-cY-7D0" secondAttribute="top" constant="655" id="iWr-N3-sFc"/>
+                                    <constraint firstItem="5tf-Js-Cw8" firstAttribute="centerX" secondItem="rEE-cY-7D0" secondAttribute="centerX" id="knT-VN-A7s"/>
+                                    <constraint firstAttribute="bottom" secondItem="rpO-X6-KeZ" secondAttribute="bottom" constant="185" id="tTE-07-bFf"/>
+                                    <constraint firstItem="N8E-U3-haC" firstAttribute="top" secondItem="rpO-X6-KeZ" secondAttribute="bottom" constant="12" id="wqN-NY-MYo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.94249570370000002" blue="0.85017174480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FOg-WU-kcn" firstAttribute="leading" secondItem="N8E-U3-haC" secondAttribute="trailing" constant="-298" id="8rq-Fd-5AO"/>
+                            <constraint firstItem="FOg-WU-kcn" firstAttribute="top" secondItem="5tf-Js-Cw8" secondAttribute="bottom" constant="-187" id="I5Y-Aw-eAa"/>
+                            <constraint firstItem="5tf-Js-Cw8" firstAttribute="leading" secondItem="FOg-WU-kcn" secondAttribute="trailing" constant="-324" id="Nxy-de-mJ8"/>
+                            <constraint firstItem="rpO-X6-KeZ" firstAttribute="leading" secondItem="FOg-WU-kcn" secondAttribute="trailing" constant="-387" id="PGq-1u-SN4"/>
+                            <constraint firstItem="FOg-WU-kcn" firstAttribute="top" secondItem="5tf-Js-Cw8" secondAttribute="bottom" constant="-187" id="QO0-Dw-qXa"/>
+                            <constraint firstItem="FOg-WU-kcn" firstAttribute="leading" secondItem="N8E-U3-haC" secondAttribute="trailing" constant="-298" id="lMj-eG-baW"/>
+                            <constraint firstItem="5tf-Js-Cw8" firstAttribute="leading" secondItem="FOg-WU-kcn" secondAttribute="trailing" constant="-357.33333333333337" id="lYQ-SM-l2K"/>
+                            <constraint firstItem="N8E-U3-haC" firstAttribute="top" secondItem="FOg-WU-kcn" secondAttribute="bottom" constant="-124" id="nlR-7n-WVb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FOg-WU-kcn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iwu-uX-V6R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="133.25892857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="1041" height="2073"/>
+        <image name="ButtonPlay" width="1095" height="168"/>
+        <image name="ButtonRule" width="774" height="168"/>
+        <image name="NameLabel" width="930" height="180"/>
+    </resources>
+</document>
