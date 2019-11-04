@@ -18,17 +18,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0lk-Ea-aNP">
-                                <rect key="frame" x="20" y="747" width="419" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0lk-Ea-aNP" userLabel="play_button">
+                                <rect key="frame" x="20" y="655" width="414" height="56"/>
                                 <state key="normal" title="Button" image="play_button"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="udR-Ap-ecg">
-                                <rect key="frame" x="45" y="148" width="324" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDO-SR-gZC" userLabel="rules_button">
+                                <rect key="frame" x="42" y="719" width="312" height="56"/>
+                                <state key="normal" title="Button" image="rules_button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPF-Vs-agp" userLabel="settings_button">
+                                <rect key="frame" x="323" y="719" width="111" height="56"/>
+                                <state key="normal" title="Button" image="settings_button"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="udR-Ap-ecg">
+                                <rect key="frame" x="60" y="162" width="294" height="61"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.9616642594" blue="0.90290290120000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0lk-Ea-aNP" firstAttribute="top" secondItem="udR-Ap-ecg" secondAttribute="bottom" constant="450" id="0tv-Yi-bTC"/>
+                            <constraint firstItem="yPF-Vs-agp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="323" id="Ds5-bm-Qgg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kDO-SR-gZC" secondAttribute="trailing" constant="60" id="GAZ-AQ-khH"/>
+                            <constraint firstItem="udR-Ap-ecg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="Gn7-yf-jPl"/>
+                            <constraint firstItem="kDO-SR-gZC" firstAttribute="top" secondItem="0lk-Ea-aNP" secondAttribute="bottom" constant="8" id="S9k-ea-LJc"/>
+                            <constraint firstAttribute="trailing" secondItem="0lk-Ea-aNP" secondAttribute="trailing" constant="-20" id="UU4-X4-Wpm"/>
+                            <constraint firstItem="udR-Ap-ecg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="Y6c-rA-IYr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="udR-Ap-ecg" secondAttribute="trailing" constant="60" id="mhd-Co-ffZ"/>
+                            <constraint firstAttribute="trailing" secondItem="yPF-Vs-agp" secondAttribute="trailing" constant="-20" id="q6E-Zt-IR2"/>
+                            <constraint firstItem="yPF-Vs-agp" firstAttribute="top" secondItem="0lk-Ea-aNP" secondAttribute="bottom" constant="8" id="q8d-a3-Dy8"/>
+                            <constraint firstItem="0lk-Ea-aNP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="qwE-dA-l7D"/>
+                            <constraint firstItem="kDO-SR-gZC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="vgh-Ib-ueJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -40,5 +60,7 @@
     <resources>
         <image name="logo" width="310" height="61"/>
         <image name="play_button" width="365" height="56"/>
+        <image name="rules_button" width="258" height="56"/>
+        <image name="settings_button" width="57" height="56"/>
     </resources>
 </document>
