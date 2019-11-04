@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  SmartGameP
+//  SmartGame
 //
-//  Created by Paw.toporkov on 17/10/2019.
-//  Copyright © 2019 Paw.toporkov. All rights reserved.
+//  Created by Paw.toporkov on 04/11/2019.
+//  Copyright © 2019 TemaPasha. All rights reserved.
 //
 
 import UIKit

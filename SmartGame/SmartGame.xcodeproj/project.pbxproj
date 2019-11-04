@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B4DF86922357D783002BC03C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF86912357D783002BC03C /* AppDelegate.swift */; };
-		B4DF86942357D783002BC03C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DF86932357D783002BC03C /* ViewController.swift */; };
-		B4DF86972357D783002BC03C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DF86952357D783002BC03C /* Main.storyboard */; };
-		B4DF86992357D784002BC03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DF86982357D784002BC03C /* Assets.xcassets */; };
-		B4DF869C2357D784002BC03C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DF869A2357D784002BC03C /* LaunchScreen.storyboard */; };
+		B40ED8962370BEBA000F1F4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40ED8952370BEBA000F1F4A /* AppDelegate.swift */; };
+		B40ED8982370BEBA000F1F4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40ED8972370BEBA000F1F4A /* ViewController.swift */; };
+		B40ED89B2370BEBA000F1F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40ED8992370BEBA000F1F4A /* Main.storyboard */; };
+		B40ED89D2370BEBB000F1F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40ED89C2370BEBB000F1F4A /* Assets.xcassets */; };
+		B40ED8A02370BEBB000F1F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40ED89E2370BEBB000F1F4A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B4DF868E2357D783002BC03C /* SmartGameP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartGameP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4DF86912357D783002BC03C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B4DF86932357D783002BC03C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B4DF86962357D783002BC03C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B4DF86982357D784002BC03C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B4DF869B2357D784002BC03C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B4DF869D2357D784002BC03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B40ED8922370BEBA000F1F4A /* SmartGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40ED8952370BEBA000F1F4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B40ED8972370BEBA000F1F4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B40ED89A2370BEBA000F1F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B40ED89C2370BEBB000F1F4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B40ED89F2370BEBB000F1F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B40ED8A12370BEBB000F1F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B4DF868B2357D783002BC03C /* Frameworks */ = {
+		B40ED88F2370BEBA000F1F4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B4DF86852357D783002BC03C = {
+		B40ED8892370BEBA000F1F4A = {
 			isa = PBXGroup;
 			children = (
-				B4DF86902357D783002BC03C /* SmartGameP */,
-				B4DF868F2357D783002BC03C /* Products */,
+				B40ED8942370BEBA000F1F4A /* SmartGame */,
+				B40ED8932370BEBA000F1F4A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B4DF868F2357D783002BC03C /* Products */ = {
+		B40ED8932370BEBA000F1F4A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B4DF868E2357D783002BC03C /* SmartGameP.app */,
+				B40ED8922370BEBA000F1F4A /* SmartGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B4DF86902357D783002BC03C /* SmartGameP */ = {
+		B40ED8942370BEBA000F1F4A /* SmartGame */ = {
 			isa = PBXGroup;
 			children = (
-				B4DF86912357D783002BC03C /* AppDelegate.swift */,
-				B4DF86932357D783002BC03C /* ViewController.swift */,
-				B4DF86952357D783002BC03C /* Main.storyboard */,
-				B4DF86982357D784002BC03C /* Assets.xcassets */,
-				B4DF869A2357D784002BC03C /* LaunchScreen.storyboard */,
-				B4DF869D2357D784002BC03C /* Info.plist */,
+				B40ED8952370BEBA000F1F4A /* AppDelegate.swift */,
+				B40ED8972370BEBA000F1F4A /* ViewController.swift */,
+				B40ED8992370BEBA000F1F4A /* Main.storyboard */,
+				B40ED89C2370BEBB000F1F4A /* Assets.xcassets */,
+				B40ED89E2370BEBB000F1F4A /* LaunchScreen.storyboard */,
+				B40ED8A12370BEBB000F1F4A /* Info.plist */,
 			);
-			path = SmartGameP;
+			path = SmartGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B4DF868D2357D783002BC03C /* SmartGameP */ = {
+		B40ED8912370BEBA000F1F4A /* SmartGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4DF86A02357D784002BC03C /* Build configuration list for PBXNativeTarget "SmartGameP" */;
+			buildConfigurationList = B40ED8A42370BEBB000F1F4A /* Build configuration list for PBXNativeTarget "SmartGame" */;
 			buildPhases = (
-				B4DF868A2357D783002BC03C /* Sources */,
-				B4DF868B2357D783002BC03C /* Frameworks */,
-				B4DF868C2357D783002BC03C /* Resources */,
+				B40ED88E2370BEBA000F1F4A /* Sources */,
+				B40ED88F2370BEBA000F1F4A /* Frameworks */,
+				B40ED8902370BEBA000F1F4A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SmartGameP;
-			productName = SmartGameP;
-			productReference = B4DF868E2357D783002BC03C /* SmartGameP.app */;
+			name = SmartGame;
+			productName = SmartGame;
+			productReference = B40ED8922370BEBA000F1F4A /* SmartGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B4DF86862357D783002BC03C /* Project object */ = {
+		B40ED88A2370BEBA000F1F4A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
-				ORGANIZATIONNAME = Paw.toporkov;
+				ORGANIZATIONNAME = TemaPasha;
 				TargetAttributes = {
-					B4DF868D2357D783002BC03C = {
+					B40ED8912370BEBA000F1F4A = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = B4DF86892357D783002BC03C /* Build configuration list for PBXProject "SmartGameP" */;
+			buildConfigurationList = B40ED88D2370BEBA000F1F4A /* Build configuration list for PBXProject "SmartGame" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = B4DF86852357D783002BC03C;
-			productRefGroup = B4DF868F2357D783002BC03C /* Products */;
+			mainGroup = B40ED8892370BEBA000F1F4A;
+			productRefGroup = B40ED8932370BEBA000F1F4A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B4DF868D2357D783002BC03C /* SmartGameP */,
+				B40ED8912370BEBA000F1F4A /* SmartGame */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B4DF868C2357D783002BC03C /* Resources */ = {
+		B40ED8902370BEBA000F1F4A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4DF869C2357D784002BC03C /* LaunchScreen.storyboard in Resources */,
-				B4DF86992357D784002BC03C /* Assets.xcassets in Resources */,
-				B4DF86972357D783002BC03C /* Main.storyboard in Resources */,
+				B40ED8A02370BEBB000F1F4A /* LaunchScreen.storyboard in Resources */,
+				B40ED89D2370BEBB000F1F4A /* Assets.xcassets in Resources */,
+				B40ED89B2370BEBA000F1F4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B4DF868A2357D783002BC03C /* Sources */ = {
+		B40ED88E2370BEBA000F1F4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4DF86942357D783002BC03C /* ViewController.swift in Sources */,
-				B4DF86922357D783002BC03C /* AppDelegate.swift in Sources */,
+				B40ED8982370BEBA000F1F4A /* ViewController.swift in Sources */,
+				B40ED8962370BEBA000F1F4A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B4DF86952357D783002BC03C /* Main.storyboard */ = {
+		B40ED8992370BEBA000F1F4A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B4DF86962357D783002BC03C /* Base */,
+				B40ED89A2370BEBA000F1F4A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B4DF869A2357D784002BC03C /* LaunchScreen.storyboard */ = {
+		B40ED89E2370BEBB000F1F4A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B4DF869B2357D784002BC03C /* Base */,
+				B40ED89F2370BEBB000F1F4A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B4DF869E2357D784002BC03C /* Debug */ = {
+		B40ED8A22370BEBB000F1F4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		B4DF869F2357D784002BC03C /* Release */ = {
+		B40ED8A32370BEBB000F1F4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,34 +278,34 @@
 			};
 			name = Release;
 		};
-		B4DF86A12357D784002BC03C /* Debug */ = {
+		B40ED8A52370BEBB000F1F4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SmartGameP/Info.plist;
+				INFOPLIST_FILE = SmartGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = rsg.SmartGameP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SmartGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B4DF86A22357D784002BC03C /* Release */ = {
+		B40ED8A62370BEBB000F1F4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SmartGameP/Info.plist;
+				INFOPLIST_FILE = SmartGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = rsg.SmartGameP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SmartGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,25 +315,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B4DF86892357D783002BC03C /* Build configuration list for PBXProject "SmartGameP" */ = {
+		B40ED88D2370BEBA000F1F4A /* Build configuration list for PBXProject "SmartGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4DF869E2357D784002BC03C /* Debug */,
-				B4DF869F2357D784002BC03C /* Release */,
+				B40ED8A22370BEBB000F1F4A /* Debug */,
+				B40ED8A32370BEBB000F1F4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4DF86A02357D784002BC03C /* Build configuration list for PBXNativeTarget "SmartGameP" */ = {
+		B40ED8A42370BEBB000F1F4A /* Build configuration list for PBXNativeTarget "SmartGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4DF86A12357D784002BC03C /* Debug */,
-				B4DF86A22357D784002BC03C /* Release */,
+				B40ED8A52370BEBB000F1F4A /* Debug */,
+				B40ED8A62370BEBB000F1F4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B4DF86862357D783002BC03C /* Project object */;
+	rootObject = B40ED88A2370BEBA000F1F4A /* Project object */;
 }
