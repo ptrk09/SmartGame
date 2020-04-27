@@ -55,6 +55,8 @@
 		B428F3B823E6E324008169CB /* TeamCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B428F3B723E6E324008169CB /* TeamCollectionViewCell.swift */; };
 		B428F3BA23E72BA6008169CB /* PreGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B428F3B923E72BA6008169CB /* PreGameViewController.swift */; };
 		B428F3BD23E73970008169CB /* TeamStartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B428F3BC23E73970008169CB /* TeamStartCollectionViewCell.swift */; };
+		B4A59A4E2457531D00A83E5F /* 00171.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4A59A4D2457531D00A83E5F /* 00171.mp3 */; };
+		B4A59A50245755CF00A83E5F /* wik.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4A59A4F245755CF00A83E5F /* wik.mp3 */; };
 		B4BA0F1C24415C4300FAAF1E /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BA0F1B24415C4300FAAF1E /* MyButton.swift */; };
 		B4BA0F202441C8E500FAAF1E /* MyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BA0F1F2441C8E500FAAF1E /* MyImageView.swift */; };
 		B4BC217F240584B300A6A3B4 /* labelPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BC217E240584B300A6A3B4 /* labelPoint.swift */; };
@@ -131,6 +133,8 @@
 		B428F3B723E6E324008169CB /* TeamCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCollectionViewCell.swift; sourceTree = "<group>"; };
 		B428F3B923E72BA6008169CB /* PreGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreGameViewController.swift; sourceTree = "<group>"; };
 		B428F3BC23E73970008169CB /* TeamStartCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamStartCollectionViewCell.swift; sourceTree = "<group>"; };
+		B4A59A4D2457531D00A83E5F /* 00171.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 00171.mp3; sourceTree = "<group>"; };
+		B4A59A4F245755CF00A83E5F /* wik.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wik.mp3; sourceTree = "<group>"; };
 		B4BA0F1B24415C4300FAAF1E /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 		B4BA0F1F2441C8E500FAAF1E /* MyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageView.swift; sourceTree = "<group>"; };
 		B4BC217E240584B300A6A3B4 /* labelPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = labelPoint.swift; sourceTree = "<group>"; };
@@ -295,6 +299,8 @@
 		B4228FCF2457423500089C9B /* Sound */ = {
 			isa = PBXGroup;
 			children = (
+				B4A59A4F245755CF00A83E5F /* wik.mp3 */,
+				B4A59A4D2457531D00A83E5F /* 00171.mp3 */,
 			);
 			path = Sound;
 			sourceTree = "<group>";
@@ -395,6 +401,7 @@
 				B40ED9172371FBB4000F1F4A /* topic_human_eng.json in Resources */,
 				B40ED91F2371FBB4000F1F4A /* topic_sport.json in Resources */,
 				B40ED9232371FBB4000F1F4A /* topic_food_eng.json in Resources */,
+				B4A59A4E2457531D00A83E5F /* 00171.mp3 in Resources */,
 				B40ED9212371FBB4000F1F4A /* topic_phisicsmaths.json in Resources */,
 				B40ED9292371FBB4000F1F4A /* topic_jobs.json in Resources */,
 				B40ED92B2371FBB4000F1F4A /* topic_jobs_eng.json in Resources */,
@@ -416,6 +423,7 @@
 				B40ED91C2371FBB4000F1F4A /* topic_geography.json in Resources */,
 				B4F4BE9423FC52E900F010FC /* LG.ttf in Resources */,
 				B40ED9142371FBB4000F1F4A /* topic_technologys.json in Resources */,
+				B4A59A50245755CF00A83E5F /* wik.mp3 in Resources */,
 				B40ED91A2371FBB4000F1F4A /* topic_technologys_eng.json in Resources */,
 				B40ED92F2371FBB4000F1F4A /* topic_new_year.json in Resources */,
 				B40ED91E2371FBB4000F1F4A /* topic_phisicsmaths_eng.json in Resources */,

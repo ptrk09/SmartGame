@@ -72,6 +72,7 @@ class SelectedViewController: UIViewController {
         var countWords = 0
         
         if topicCollectionView.indexTopic.count == 0 {
+            print("no topics")
             return []
         }
         
@@ -97,10 +98,12 @@ class SelectedViewController: UIViewController {
             if topicCollectionView.indexTopic.count != 1  {
                 for i in 0..<topicCollectionView.indexTopic.count - 1 {
                     finalArray += topicParser(fileName: topicCollectionView.arrayTopic[topicCollectionView.indexTopic[i]].nameFile, level: level, countWords: countOneTopicWords)
+                    print(finalArray)
                 }
                 finalArray += topicParser(fileName: topicCollectionView.arrayTopic[topicCollectionView.indexTopic.last!].nameFile, level: level, countWords: (countWords - (countOneTopicWords * (topicCollectionView.indexTopic.count - 1))))
             } else {
                 finalArray += topicParser(fileName: topicCollectionView.arrayTopic[topicCollectionView.indexTopic.last!].nameFile, level: level, countWords: countWords)
+                 print("res:", finalArray)
             }
             return finalArray
         }
@@ -379,12 +382,14 @@ class SelectedViewController: UIViewController {
             
             
             if ((curLvl ?? LevelType.noLvl ) == LevelType.noLvl || arrayTeams.count < 2) {
+                print("topic error", 1)
                 setAlert()
                 animateIn()
                 return
             } else {
                 arrayWords = getArrayWords(countTeams: arrayTeams.count, level: curLvl!)
                 if arrayWords.count == 0 {
+                     print("topic error", 2)
                     setAlert()
                     animateIn()
                     return

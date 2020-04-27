@@ -11,6 +11,8 @@ import AVFoundation
 
 class GameViewController: UIViewController {
     
+    var audioPlayer = AVAudioPlayer()
+    
     private lazy var alert: AlertBack = {
         let alertView: AlertBack = AlertBack.loadFromNib()
         alertView.delegate = self
@@ -80,6 +82,16 @@ class GameViewController: UIViewController {
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        
+        let sound = Bundle.main.path(forResource: "wik", ofType: "mp3")
+        
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+            
+            
+        } catch {
+            print("error music")
+        }
         
         collectionView.dataSource = self
         collectionView.delegate = self
@@ -207,10 +219,12 @@ class GameViewController: UIViewController {
     
     
     private func updateLabels() {
+        
         labelWord.text = arrayWords[curIndexWord].word
         labelPoint.text =  "+\(arrayWords[curIndexWord].points)"
         labelWordsOk.text = "\(curIndexWord)/\(maxCountWord)"
         labelWordsSkip.text = "\(arrayTeams[curTeamIndex].skipNumber)/\(maxCountSkip)"
+       
     }
     
     
@@ -259,7 +273,9 @@ class GameViewController: UIViewController {
     }
 
     
-    @IBAction func getNextWord(_ sender: Any) {
+    @IBAction func getNextWord(_ sender: UIButton) {
+        
+        audioPlayer.play()
         curIndexWord += 1
         arrayTeams[curTeamIndex].pointsNumber += arrayWords[curIndexWord - 1].points
         collectionView.reloadData()
@@ -269,6 +285,8 @@ class GameViewController: UIViewController {
         } else {
             updateLabels()
         }
+        
+        
     }
     
     

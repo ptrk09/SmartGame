@@ -24,8 +24,11 @@ private func getNeedWordsByCount(countEasyWords: Int, countHardWords: Int, data:
         //print("\(arrayIndForData[i])")
         //print("\(data[arrayIndForData[i]])")
         
+       
         guard let userDict = data[arrayIndForData[i]] as? [Any?] else {
             return [] }
+        
+        
         
         guard let word = userDict[0] as? String else { return [] }
         guard let points = userDict[1] as? Int else { return [] }
@@ -53,18 +56,28 @@ func topicParser(fileName: String, level: LevelType, countWords: Int) -> [WordSt
 {
     var finalArrayWords: [WordStruct] = []
     
+    print("pars 01")
     guard let path = Bundle.main.path(forResource: fileName as String, ofType: "json") else { return [] }
+    print("pars 02")
     let url = URL(fileURLWithPath: path)
+    print("pars 03")
+    print(url)
     
     do
     {
+        print("pars 1")
         let data = try Data(contentsOf: url) as Data
+        print("pars 12")
+        print(data.count)
         let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
+        print("pars 13")
         guard let tempArrayWords = json as? [Any] else { return [] }
+        print("pars 14")
         
         var arrayInd = [Int](0..<tempArrayWords.count)// создаем массив индексов
         arrayInd.shuffle() // Перемешиваем массив индексов.
         
+         print("pars 2")
         switch level {
         case .easy:
             let countEasyWords: Int = countWords * 7 / 10
@@ -84,6 +97,7 @@ func topicParser(fileName: String, level: LevelType, countWords: Int) -> [WordSt
     }
     catch
     {
+        print("no fix error")
         print(error)
     }
     
