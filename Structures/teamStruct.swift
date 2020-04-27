@@ -8,19 +8,25 @@
 
 import Foundation
 
-enum LevelType {
-    case easy, hard, all
+enum LevelType
+{
+    case easy, hard, all, noLvl
 }
 
-struct TeamStruct {
+struct TeamStruct
+{
     
     var teamIndicator: Int  // Индикатор команды
     var pointsNumber: Int  // Количество очков команды
     var skipNumber: Int    // Количество пропусков у команды
+    var imageName: String
     
-    init() {               // Инициализация
+    init()
+    {
+        // Инициализация
         teamIndicator = 0
         pointsNumber = 0
         skipNumber = 0
+        imageName = ""
     }
 }

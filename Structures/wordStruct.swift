@@ -8,11 +8,13 @@
 
 import Foundation
 
-struct WordStruct {
+struct WordStruct
+{
     var word: String  // Слово
     var points: Int    // Количество очков за угаданное слово
     
-    init() {          // Инициализация
+    init()
+    {          // Инициализация
         word = ""
         points = 0
     }

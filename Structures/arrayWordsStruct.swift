@@ -8,13 +8,15 @@
 
 import Foundation
 
-struct ArrayWordsStruct {
+struct ArrayWordsStruct
+{
     
     var arrayWords: [WordStruct]  // Массив структур
     var length: Int               // Длина массива структур
     
     // Инициализация
-    init() {
+    init()
+    {
         length = 0
         arrayWords = []
     }
