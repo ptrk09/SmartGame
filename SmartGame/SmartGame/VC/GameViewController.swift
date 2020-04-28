@@ -12,6 +12,7 @@ import AVFoundation
 class GameViewController: UIViewController {
     
     var audioPlayer = AVAudioPlayer()
+    var audioPlayer2 = AVAudioPlayer()
     
     private lazy var alert: AlertBack = {
         let alertView: AlertBack = AlertBack.loadFromNib()
@@ -84,9 +85,18 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
         
         let sound = Bundle.main.path(forResource: "wik", ofType: "mp3")
+        let sound2 = Bundle.main.path(forResource: "timer", ofType: "mp3")
         
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+            
+            
+        } catch {
+            print("error music")
+        }
+        
+        do {
+            audioPlayer2 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound2!))
             
             
         } catch {
@@ -214,6 +224,8 @@ class GameViewController: UIViewController {
             timer?.invalidate()
             timer = nil
             goToPreGameVC(curState: .nextTeam)
+        } else if temp >= 55 {
+            audioPlayer2.play()
         }
     }
     

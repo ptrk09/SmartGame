@@ -57,6 +57,7 @@
 		B44B677524582BC500D0AD5F /* topic_cities.json in Resources */ = {isa = PBXBuildFile; fileRef = B44B677224582BC500D0AD5F /* topic_cities.json */; };
 		B44B677624582BC500D0AD5F /* topic_bio.json in Resources */ = {isa = PBXBuildFile; fileRef = B44B677324582BC500D0AD5F /* topic_bio.json */; };
 		B44B677724582BC500D0AD5F /* topic_military.json in Resources */ = {isa = PBXBuildFile; fileRef = B44B677424582BC500D0AD5F /* topic_military.json */; };
+		B44B6779245830BF00D0AD5F /* timer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B44B6778245830BF00D0AD5F /* timer.mp3 */; };
 		B4A59A4E2457531D00A83E5F /* 00171.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4A59A4D2457531D00A83E5F /* 00171.mp3 */; };
 		B4A59A50245755CF00A83E5F /* wik.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4A59A4F245755CF00A83E5F /* wik.mp3 */; };
 		B4A59A54245759AF00A83E5F /* topic_mix.json in Resources */ = {isa = PBXBuildFile; fileRef = B4A59A53245759AF00A83E5F /* topic_mix.json */; };
@@ -138,6 +139,7 @@
 		B44B677224582BC500D0AD5F /* topic_cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_cities.json; sourceTree = "<group>"; };
 		B44B677324582BC500D0AD5F /* topic_bio.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_bio.json; sourceTree = "<group>"; };
 		B44B677424582BC500D0AD5F /* topic_military.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_military.json; sourceTree = "<group>"; };
+		B44B6778245830BF00D0AD5F /* timer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = timer.mp3; sourceTree = "<group>"; };
 		B4A59A4D2457531D00A83E5F /* 00171.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 00171.mp3; sourceTree = "<group>"; };
 		B4A59A4F245755CF00A83E5F /* wik.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wik.mp3; sourceTree = "<group>"; };
 		B4A59A53245759AF00A83E5F /* topic_mix.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_mix.json; sourceTree = "<group>"; };
@@ -309,6 +311,7 @@
 			isa = PBXGroup;
 			children = (
 				B4A59A4F245755CF00A83E5F /* wik.mp3 */,
+				B44B6778245830BF00D0AD5F /* timer.mp3 */,
 				B4A59A4D2457531D00A83E5F /* 00171.mp3 */,
 			);
 			path = Sound;
@@ -406,6 +409,7 @@
 			files = (
 				B4F4BE9623FC530200F010FC /* LG-Bold.ttf in Resources */,
 				B40ED9262371FBB4000F1F4A /* topic_films_eng.json in Resources */,
+				B44B6779245830BF00D0AD5F /* timer.mp3 in Resources */,
 				B40ED9172371FBB4000F1F4A /* topic_human_eng.json in Resources */,
 				B40ED91F2371FBB4000F1F4A /* topic_sport.json in Resources */,
 				B40ED9232371FBB4000F1F4A /* topic_food_eng.json in Resources */,
