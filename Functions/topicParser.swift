@@ -56,28 +56,18 @@ func topicParser(fileName: String, level: LevelType, countWords: Int) -> [WordSt
 {
     var finalArrayWords: [WordStruct] = []
     
-    print("pars 01")
     guard let path = Bundle.main.path(forResource: fileName as String, ofType: "json") else { return [] }
-    print("pars 02")
     let url = URL(fileURLWithPath: path)
-    print("pars 03")
-    print(url)
     
     do
     {
-        print("pars 1")
         let data = try Data(contentsOf: url) as Data
-        print("pars 12")
-        print(data.count)
         let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
-        print("pars 13")
         guard let tempArrayWords = json as? [Any] else { return [] }
-        print("pars 14")
         
         var arrayInd = [Int](0..<tempArrayWords.count)// создаем массив индексов
         arrayInd.shuffle() // Перемешиваем массив индексов.
         
-         print("pars 2")
         switch level {
         case .easy:
             let countEasyWords: Int = countWords * 7 / 10

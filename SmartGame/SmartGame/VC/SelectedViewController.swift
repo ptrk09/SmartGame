@@ -31,7 +31,7 @@ class SelectedViewController: UIViewController {
     
     var arrayTopic: [TopicStruct] =
         [
-            TopicStruct(curNameTopic: "Микс", curNameFile: "topic_mix", curNameImage: "mix", curIsPurchased: true),
+            TopicStruct(curNameTopic: "МИКС", curNameFile: "topic_mix", curNameImage: "mix", curIsPurchased: true),
             TopicStruct(curNameTopic: "География", curNameFile: "topic_geography", curNameImage: "geo", curIsPurchased: true),
             TopicStruct(curNameTopic: "Еда", curNameFile: "topic_food", curNameImage: "food", curIsPurchased: true),
             TopicStruct(curNameTopic: "История", curNameFile: "topic_history", curNameImage: "history", curIsPurchased: true),
@@ -45,7 +45,10 @@ class SelectedViewController: UIViewController {
             TopicStruct(curNameTopic: "Профессии", curNameFile: "topic_jobs", curNameImage: "prof", curIsPurchased: true),
             TopicStruct(curNameTopic: "Вечеринка", curNameFile: "topic_party", curNameImage: "party", curIsPurchased: true),
             TopicStruct(curNameTopic: "Одежда", curNameFile: "topic_clothing", curNameImage: "wear", curIsPurchased: true),
-            TopicStruct(curNameTopic: "Дети", curNameFile: "topic_kids", curNameImage: "kids", curIsPurchased: true)
+            TopicStruct(curNameTopic: "Дети", curNameFile: "topic_kids", curNameImage: "kids", curIsPurchased: true),
+            TopicStruct(curNameTopic: "Путешествия", curNameFile: "topic_cities", curNameImage: "travel", curIsPurchased: true),
+            TopicStruct(curNameTopic: "Биология", curNameFile: "topic_bio", curNameImage: "bio", curIsPurchased: true),
+            TopicStruct(curNameTopic: "Военная тема", curNameFile: "topic_military", curNameImage: "military", curIsPurchased: true)
     ]
     
     var arrayButton: [UIButton] = []
@@ -98,12 +101,10 @@ class SelectedViewController: UIViewController {
             if topicCollectionView.indexTopic.count != 1  {
                 for i in 0..<topicCollectionView.indexTopic.count - 1 {
                     finalArray += topicParser(fileName: topicCollectionView.arrayTopic[topicCollectionView.indexTopic[i]].nameFile, level: level, countWords: countOneTopicWords)
-                    print(finalArray)
                 }
                 finalArray += topicParser(fileName: topicCollectionView.arrayTopic[topicCollectionView.indexTopic.last!].nameFile, level: level, countWords: (countWords - (countOneTopicWords * (topicCollectionView.indexTopic.count - 1))))
             } else {
                 finalArray += topicParser(fileName: topicCollectionView.arrayTopic[topicCollectionView.indexTopic.last!].nameFile, level: level, countWords: countWords)
-                 print("res:", finalArray)
             }
             return finalArray
         }
@@ -382,14 +383,12 @@ class SelectedViewController: UIViewController {
             
             
             if ((curLvl ?? LevelType.noLvl ) == LevelType.noLvl || arrayTeams.count < 2) {
-                print("topic error", 1)
                 setAlert()
                 animateIn()
                 return
             } else {
                 arrayWords = getArrayWords(countTeams: arrayTeams.count, level: curLvl!)
                 if arrayWords.count == 0 {
-                     print("topic error", 2)
                     setAlert()
                     animateIn()
                     return

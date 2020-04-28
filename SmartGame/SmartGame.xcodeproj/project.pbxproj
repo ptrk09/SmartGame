@@ -54,6 +54,9 @@
 		B428F3B823E6E324008169CB /* TeamCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B428F3B723E6E324008169CB /* TeamCollectionViewCell.swift */; };
 		B428F3BA23E72BA6008169CB /* PreGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B428F3B923E72BA6008169CB /* PreGameViewController.swift */; };
 		B428F3BD23E73970008169CB /* TeamStartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B428F3BC23E73970008169CB /* TeamStartCollectionViewCell.swift */; };
+		B44B677524582BC500D0AD5F /* topic_cities.json in Resources */ = {isa = PBXBuildFile; fileRef = B44B677224582BC500D0AD5F /* topic_cities.json */; };
+		B44B677624582BC500D0AD5F /* topic_bio.json in Resources */ = {isa = PBXBuildFile; fileRef = B44B677324582BC500D0AD5F /* topic_bio.json */; };
+		B44B677724582BC500D0AD5F /* topic_military.json in Resources */ = {isa = PBXBuildFile; fileRef = B44B677424582BC500D0AD5F /* topic_military.json */; };
 		B4A59A4E2457531D00A83E5F /* 00171.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4A59A4D2457531D00A83E5F /* 00171.mp3 */; };
 		B4A59A50245755CF00A83E5F /* wik.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4A59A4F245755CF00A83E5F /* wik.mp3 */; };
 		B4A59A54245759AF00A83E5F /* topic_mix.json in Resources */ = {isa = PBXBuildFile; fileRef = B4A59A53245759AF00A83E5F /* topic_mix.json */; };
@@ -132,6 +135,9 @@
 		B428F3B723E6E324008169CB /* TeamCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCollectionViewCell.swift; sourceTree = "<group>"; };
 		B428F3B923E72BA6008169CB /* PreGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreGameViewController.swift; sourceTree = "<group>"; };
 		B428F3BC23E73970008169CB /* TeamStartCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamStartCollectionViewCell.swift; sourceTree = "<group>"; };
+		B44B677224582BC500D0AD5F /* topic_cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_cities.json; sourceTree = "<group>"; };
+		B44B677324582BC500D0AD5F /* topic_bio.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_bio.json; sourceTree = "<group>"; };
+		B44B677424582BC500D0AD5F /* topic_military.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_military.json; sourceTree = "<group>"; };
 		B4A59A4D2457531D00A83E5F /* 00171.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 00171.mp3; sourceTree = "<group>"; };
 		B4A59A4F245755CF00A83E5F /* wik.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wik.mp3; sourceTree = "<group>"; };
 		B4A59A53245759AF00A83E5F /* topic_mix.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_mix.json; sourceTree = "<group>"; };
@@ -247,6 +253,9 @@
 				B40ED8F72371FBB3000F1F4A /* topic_food.json */,
 				B40ED8F82371FBB3000F1F4A /* topic_technologys_eng.json */,
 				B40ED8F92371FBB3000F1F4A /* topic_new_year_eng.json */,
+				B44B677324582BC500D0AD5F /* topic_bio.json */,
+				B44B677224582BC500D0AD5F /* topic_cities.json */,
+				B44B677424582BC500D0AD5F /* topic_military.json */,
 				B40ED8FA2371FBB3000F1F4A /* topic_geography.json */,
 				B40ED8FB2371FBB3000F1F4A /* topic_sport_eng.json */,
 				B40ED8FC2371FBB3000F1F4A /* topic_phisicsmaths_eng.json */,
@@ -401,6 +410,7 @@
 				B40ED91F2371FBB4000F1F4A /* topic_sport.json in Resources */,
 				B40ED9232371FBB4000F1F4A /* topic_food_eng.json in Resources */,
 				B4A59A4E2457531D00A83E5F /* 00171.mp3 in Resources */,
+				B44B677624582BC500D0AD5F /* topic_bio.json in Resources */,
 				B40ED9212371FBB4000F1F4A /* topic_phisicsmaths.json in Resources */,
 				B40ED9292371FBB4000F1F4A /* topic_jobs.json in Resources */,
 				B40ED92B2371FBB4000F1F4A /* topic_jobs_eng.json in Resources */,
@@ -416,10 +426,12 @@
 				B40ED92A2371FBB4000F1F4A /* topic_clothing.json in Resources */,
 				B40ED9282371FBB4000F1F4A /* topic_books.json in Resources */,
 				B40ED9222371FBB4000F1F4A /* topic_films.json in Resources */,
+				B44B677524582BC500D0AD5F /* topic_cities.json in Resources */,
 				B40ED9182371FBB4000F1F4A /* topic_geography_eng.json in Resources */,
 				B4A59A54245759AF00A83E5F /* topic_mix.json in Resources */,
 				B40ED92E2371FBB4000F1F4A /* topic_kids.json in Resources */,
 				B4F4BE9823FC6DB400F010FC /* AlertView.xib in Resources */,
+				B44B677724582BC500D0AD5F /* topic_military.json in Resources */,
 				B40ED91C2371FBB4000F1F4A /* topic_geography.json in Resources */,
 				B4F4BE9423FC52E900F010FC /* LG.ttf in Resources */,
 				B40ED9142371FBB4000F1F4A /* topic_technologys.json in Resources */,
