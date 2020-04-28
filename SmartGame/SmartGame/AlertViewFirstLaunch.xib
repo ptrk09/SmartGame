@@ -39,16 +39,56 @@
                     <rect key="frame" x="13" y="28" width="272" height="150"/>
                     <attributedString key="attributedText">
                         <fragment>
-                            <string key="content">Мы знаем, что вы уже немного
- устали от мировых новостей,
- и чтобы вам было чем 
-отвлечься, мы приняли 
-решение открыть бесплатный
- доступ к своему контенту
- для всех!</string>
+                            <string key="content">Мы знаем, что вы уже 
+немного устали от мировых 
+новостей, и чтобы вам 
+было чем отвлечься, 
+мы приняли решение 
+открыть бесплатный доступ
+к своему контенту для всех!</string>
                             <attributes>
+                                <color key="NSColor" red="0.025100000000000001" green="0.015219999999999999" blue="0.014930000000000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <font key="NSFont" size="17" name="LucidaGrande-Bold"/>
-                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                    <tabStops>
+                                        <textTab alignment="left" location="28">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="56">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="84">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="112">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="140">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="168">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="196">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="224">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="252">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="280">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="308">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="336">
+                                            <options/>
+                                        </textTab>
+                                    </tabStops>
+                                </paragraphStyle>
                             </attributes>
                         </fragment>
                     </attributedString>

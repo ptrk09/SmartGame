@@ -31,7 +31,7 @@ class SelectedViewController: UIViewController {
     
     var arrayTopic: [TopicStruct] =
         [
-            TopicStruct(curNameTopic: "МИКС", curNameFile: "topic_mix", curNameImage: "mix", curIsPurchased: true),
+            TopicStruct(curNameTopic: "Микс", curNameFile: "topic_mix", curNameImage: "mix", curIsPurchased: true),
             TopicStruct(curNameTopic: "География", curNameFile: "topic_geography", curNameImage: "geo", curIsPurchased: true),
             TopicStruct(curNameTopic: "Еда", curNameFile: "topic_food", curNameImage: "food", curIsPurchased: true),
             TopicStruct(curNameTopic: "История", curNameFile: "topic_history", curNameImage: "history", curIsPurchased: true),
