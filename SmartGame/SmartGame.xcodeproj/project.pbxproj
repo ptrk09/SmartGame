@@ -44,7 +44,6 @@
 		B40ED9322371FBB4000F1F4A /* wordStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40ED9122371FBB4000F1F4A /* wordStruct.swift */; };
 		B40ED9332371FBB4000F1F4A /* arrayWordsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40ED9132371FBB4000F1F4A /* arrayWordsStruct.swift */; };
 		B413A8A2244A204E003694B6 /* DopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413A8A1244A204E003694B6 /* DopCollectionViewCell.swift */; };
-		B415FF3423F612BE0023353E /* Pods_SmartGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39050E34E514F7225078DC41 /* Pods_SmartGame.framework */; };
 		B415FF6223F9D5DB0023353E /* RuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B415FF6123F9D5DB0023353E /* RuleViewController.swift */; };
 		B415FF6423F9F0700023353E /* gameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B415FF6323F9F0700023353E /* gameButton.swift */; };
 		B415FF6623F9F3D60023353E /* WinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B415FF6523F9F3D60023353E /* WinnerViewController.swift */; };
@@ -58,8 +57,8 @@
 		B44B677624582BC500D0AD5F /* topic_bio.json in Resources */ = {isa = PBXBuildFile; fileRef = B44B677324582BC500D0AD5F /* topic_bio.json */; };
 		B44B677724582BC500D0AD5F /* topic_military.json in Resources */ = {isa = PBXBuildFile; fileRef = B44B677424582BC500D0AD5F /* topic_military.json */; };
 		B44B6779245830BF00D0AD5F /* timer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B44B6778245830BF00D0AD5F /* timer.mp3 */; };
+		B44B677B24585C5500D0AD5F /* sound_button_ok.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B44B677A24585C5500D0AD5F /* sound_button_ok.mp3 */; };
 		B4A59A4E2457531D00A83E5F /* 00171.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4A59A4D2457531D00A83E5F /* 00171.mp3 */; };
-		B4A59A50245755CF00A83E5F /* wik.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4A59A4F245755CF00A83E5F /* wik.mp3 */; };
 		B4A59A54245759AF00A83E5F /* topic_mix.json in Resources */ = {isa = PBXBuildFile; fileRef = B4A59A53245759AF00A83E5F /* topic_mix.json */; };
 		B4BA0F1C24415C4300FAAF1E /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BA0F1B24415C4300FAAF1E /* MyButton.swift */; };
 		B4BA0F202441C8E500FAAF1E /* MyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BA0F1F2441C8E500FAAF1E /* MyImageView.swift */; };
@@ -71,7 +70,6 @@
 		B4E601F123F4CF3A00C17D79 /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E601F023F4CF3A00C17D79 /* MyTimer.swift */; };
 		B4EDEA4024277C440035AA59 /* IAPProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EDEA3F24277C440035AA59 /* IAPProducts.swift */; };
 		B4EDEA432427802D0035AA59 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EDEA422427802D0035AA59 /* IAPManager.swift */; };
-		B4EDEA452427824F0035AA59 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EDEA442427824F0035AA59 /* StoreKit.framework */; };
 		B4F4BE9423FC52E900F010FC /* LG.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4F4BE9323FC52E900F010FC /* LG.ttf */; };
 		B4F4BE9623FC530200F010FC /* LG-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4F4BE9523FC530200F010FC /* LG-Bold.ttf */; };
 		B4F4BE9823FC6DB400F010FC /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4F4BE9723FC6DB400F010FC /* AlertView.xib */; };
@@ -140,8 +138,8 @@
 		B44B677324582BC500D0AD5F /* topic_bio.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_bio.json; sourceTree = "<group>"; };
 		B44B677424582BC500D0AD5F /* topic_military.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_military.json; sourceTree = "<group>"; };
 		B44B6778245830BF00D0AD5F /* timer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = timer.mp3; sourceTree = "<group>"; };
+		B44B677A24585C5500D0AD5F /* sound_button_ok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound_button_ok.mp3; sourceTree = "<group>"; };
 		B4A59A4D2457531D00A83E5F /* 00171.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 00171.mp3; sourceTree = "<group>"; };
-		B4A59A4F245755CF00A83E5F /* wik.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wik.mp3; sourceTree = "<group>"; };
 		B4A59A53245759AF00A83E5F /* topic_mix.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_mix.json; sourceTree = "<group>"; };
 		B4BA0F1B24415C4300FAAF1E /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 		B4BA0F1F2441C8E500FAAF1E /* MyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageView.swift; sourceTree = "<group>"; };
@@ -171,8 +169,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B415FF3423F612BE0023353E /* Pods_SmartGame.framework in Frameworks */,
-				B4EDEA452427824F0035AA59 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,8 +306,8 @@
 		B4228FCF2457423500089C9B /* Sound */ = {
 			isa = PBXGroup;
 			children = (
-				B4A59A4F245755CF00A83E5F /* wik.mp3 */,
 				B44B6778245830BF00D0AD5F /* timer.mp3 */,
+				B44B677A24585C5500D0AD5F /* sound_button_ok.mp3 */,
 				B4A59A4D2457531D00A83E5F /* 00171.mp3 */,
 			);
 			path = Sound;
@@ -429,6 +425,7 @@
 				B40ED9162371FBB4000F1F4A /* topic_history_eng.json in Resources */,
 				B40ED92A2371FBB4000F1F4A /* topic_clothing.json in Resources */,
 				B40ED9282371FBB4000F1F4A /* topic_books.json in Resources */,
+				B44B677B24585C5500D0AD5F /* sound_button_ok.mp3 in Resources */,
 				B40ED9222371FBB4000F1F4A /* topic_films.json in Resources */,
 				B44B677524582BC500D0AD5F /* topic_cities.json in Resources */,
 				B40ED9182371FBB4000F1F4A /* topic_geography_eng.json in Resources */,
@@ -439,7 +436,6 @@
 				B40ED91C2371FBB4000F1F4A /* topic_geography.json in Resources */,
 				B4F4BE9423FC52E900F010FC /* LG.ttf in Resources */,
 				B40ED9142371FBB4000F1F4A /* topic_technologys.json in Resources */,
-				B4A59A50245755CF00A83E5F /* wik.mp3 in Resources */,
 				B40ED91A2371FBB4000F1F4A /* topic_technologys_eng.json in Resources */,
 				B40ED92F2371FBB4000F1F4A /* topic_new_year.json in Resources */,
 				B40ED91E2371FBB4000F1F4A /* topic_phisicsmaths_eng.json in Resources */,

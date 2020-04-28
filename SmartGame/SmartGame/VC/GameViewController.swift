@@ -84,7 +84,7 @@ class GameViewController: UIViewController {
     {
         super.viewDidLoad()
         
-        let sound = Bundle.main.path(forResource: "wik", ofType: "mp3")
+        let sound = Bundle.main.path(forResource: "sound_button_ok", ofType: "mp3")
         let sound2 = Bundle.main.path(forResource: "timer", ofType: "mp3")
         
         do {

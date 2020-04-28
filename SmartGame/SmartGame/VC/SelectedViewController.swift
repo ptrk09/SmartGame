@@ -45,7 +45,7 @@ class SelectedViewController: UIViewController {
             TopicStruct(curNameTopic: "Профессии", curNameFile: "topic_jobs", curNameImage: "prof", curIsPurchased: true),
             TopicStruct(curNameTopic: "Вечеринка", curNameFile: "topic_party", curNameImage: "party", curIsPurchased: true),
             TopicStruct(curNameTopic: "Одежда", curNameFile: "topic_clothing", curNameImage: "wear", curIsPurchased: true),
-            TopicStruct(curNameTopic: "Дети", curNameFile: "topic_kids", curNameImage: "kids", curIsPurchased: true),
+            TopicStruct(curNameTopic: "Умные дети", curNameFile: "topic_kids", curNameImage: "kids", curIsPurchased: true),
             TopicStruct(curNameTopic: "Путешествия", curNameFile: "topic_cities", curNameImage: "travel", curIsPurchased: true),
             TopicStruct(curNameTopic: "Биология", curNameFile: "topic_bio", curNameImage: "bio", curIsPurchased: true),
             TopicStruct(curNameTopic: "Военная тема", curNameFile: "topic_military", curNameImage: "military", curIsPurchased: true)
