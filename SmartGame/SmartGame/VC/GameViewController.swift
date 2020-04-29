@@ -306,9 +306,8 @@ class GameViewController: UIViewController {
     
     
     @IBAction func getNextSkip(_ sender: Any) {
-        audioPlayer3.play()
         if (arrayTeams[curTeamIndex].skipNumber < maxCountSkip) {
-            
+            audioPlayer3.play()
             if (curIndexWord < maxCountWord) {
                 for i in curIndexWord..<(maxCountWord - 1) {
                     arrayWords[i] = arrayWords[i + 1]
