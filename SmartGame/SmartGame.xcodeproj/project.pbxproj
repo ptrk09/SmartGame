@@ -658,7 +658,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = com.Wisteria.Smart;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BS9KE98M5N;
 				INFOPLIST_FILE = SmartGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -670,7 +670,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Wisteria.Smart;
 				PRODUCT_NAME = SMART;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -680,7 +680,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = com.Wisteria.Smart;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BS9KE98M5N;
 				INFOPLIST_FILE = SmartGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -692,7 +692,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Wisteria.Smart;
 				PRODUCT_NAME = SMART;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
