@@ -85,11 +85,10 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
         
         let sound = Bundle.main.path(forResource: "sound_button_ok", ofType: "mp3")
-        let sound2 = Bundle.main.path(forResource: "timer", ofType: "mp3")
+        let sound2 = Bundle.main.path(forResource: "tick", ofType: "wav")
         
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
-            
             
         } catch {
             print("error music")
@@ -97,7 +96,6 @@ class GameViewController: UIViewController {
         
         do {
             audioPlayer2 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound2!))
-            
             
         } catch {
             print("error music")
