@@ -13,6 +13,7 @@ class GameViewController: UIViewController {
     
     var audioPlayer = AVAudioPlayer()
     var audioPlayer2 = AVAudioPlayer()
+    var audioPlayer3 = AVAudioPlayer()
     
     private lazy var alert: AlertBack = {
         let alertView: AlertBack = AlertBack.loadFromNib()
@@ -84,21 +85,29 @@ class GameViewController: UIViewController {
     {
         super.viewDidLoad()
         
-        let sound = Bundle.main.path(forResource: "sound_button_ok", ofType: "mp3")
+        let sound = Bundle.main.path(forResource: "sound_button_ok", ofType: "wav")
         let sound2 = Bundle.main.path(forResource: "tick", ofType: "wav")
+        let sound3 = Bundle.main.path(forResource: "Blop", ofType: "mp3")
         
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
             
         } catch {
-            print("error music")
+            print("error music1")
         }
         
         do {
             audioPlayer2 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound2!))
             
         } catch {
-            print("error music")
+            print("error music2")
+        }
+        
+        do {
+            audioPlayer3 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound3!))
+            audioPlayer3.setVolume(0.35, fadeDuration: .infinity)
+        } catch {
+            print("error music3")
         }
         
         collectionView.dataSource = self
@@ -290,17 +299,14 @@ class GameViewController: UIViewController {
         arrayTeams[curTeamIndex].pointsNumber += arrayWords[curIndexWord - 1].points
         collectionView.reloadData()
        
-        if (curIndexWord >= maxCountWord) {
-            goToPreGameVC(curState: .nextRound)
-        } else {
-            updateLabels()
-        }
+        if (curIndexWord >= maxCountWord) { goToPreGameVC(curState: .nextRound) } else { updateLabels() }
         
         
     }
     
     
     @IBAction func getNextSkip(_ sender: Any) {
+        audioPlayer3.play()
         if (arrayTeams[curTeamIndex].skipNumber < maxCountSkip) {
             
             if (curIndexWord < maxCountWord) {
