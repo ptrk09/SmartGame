@@ -105,7 +105,7 @@ class GameViewController: UIViewController {
         
         do {
             audioPlayer3 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound3!))
-            //audioPlayer3.setVolume(0.35, fadeDuration: .zero)
+            audioPlayer3.setVolume(0.35, fadeDuration: .zero)
         } catch {
             print("error music3")
         }
